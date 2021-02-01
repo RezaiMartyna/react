@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "lint": "eslint src/"
   },
@@ -28,7 +28,6 @@
     "react-redux": "^7.0.1",
     "redux": "^4.0.1",
     "shortid": "^2.2.16"
-    
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
