@@ -12,11 +12,24 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  HeaderIcon: 'heart',
 };
 
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const FAQData = {
+  title: 'Question',
+  description: 'efnjdsnfsndl bjsedkjsdnkjsnkd jfkbkdjbfckjdbfk',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+};
+
+export const InfoData = {
+  title: 'Information',
+  description: 'efnjdsnfsndl bjsedkjsdnkjsnkd jfkbkdjbfckjdbfk',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
 export const listData = {

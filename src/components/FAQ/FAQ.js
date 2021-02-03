@@ -1,17 +1,18 @@
 import React from 'react';
 import Container from '../Container/Container';
 import Hero from './../Hero/Hero';
-import { InfoData} from '../../data/dataStore';
+import { FAQData} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 
-const Info = () => (
+
+const FAQ = () => (
   <Container>
-    <Hero titleText={InfoData.title} imgSrc={InfoData.image}></Hero>
+    <Hero titleText={FAQData.title} imgSrc={FAQData.image}></Hero>
     <div>
-      {ReactHtmlParser(InfoData.description)}
+      {ReactHtmlParser(FAQData.description)}
     </div>
   </Container>
 );
 
 
-export default Info;
+export default FAQ;
